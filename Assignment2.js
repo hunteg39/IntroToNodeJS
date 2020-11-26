@@ -3,6 +3,7 @@
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
+const PORT = process.env.PORT || 5000;
 
 http.createServer(function(req, res) {
 	var q = url.parse(req.url, true);
@@ -21,6 +22,6 @@ fs.readFile(filename, function(err, data) {
 		res.write(data);
 		return res.end();
 	});
-}).listen(8080);
+}).listen(PORT);
 
-console.log("Server Listening on Port 8080...");
+console.log("Server Listening on Assigned PORT...");

@@ -1,0 +1,20 @@
+{
+  "name": "is350labs",
+  "version": "14.15.0",
+  "description": "single node.js web app",
+  "main": "Assignment2.js",
+  "scripts": {
+    "start": "assignment2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunteg39/IntroToNodeJS.git"
+  },
+  "author": "Grant Hunter",
+  "license": "UWO",
+  "bugs": {
+    "url": "https://github.com/hunteg39/IntroToNodeJS/issues"
+  },
+  "homepage": "https://github.com/hunteg39/IntroToNodeJS#readme"
+}
